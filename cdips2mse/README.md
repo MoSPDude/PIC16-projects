@@ -74,17 +74,17 @@ own (such as the buffer etc).
 I left in my flashing LED debugging code, just in case. Errors are shown by a definate flash
 of 500ms on then 500ms off.
 
- 1 flash   = Error resetting mouse (bad command)
- 2 flashes = Error resetting mouse (bad BAT)
- 3 flashes = Error resetting mouse (bad BAT ID)
- 4 flashes = Error setting defaults (bad command)
- 5 flashes = Error setting sample rate (bad command)
- 6 flashes = Error setting resolution (bad command)
- 7 flashes = Error setting scaling (bad command)
- 8 flashes = Error fetching info (bad command)
- 9 flashes = Bad resolution setting
-10 flashes = Bad sample rate setting
-11 flashes = Error entering remote mode
+ * 1 flash   = Error resetting mouse (bad command)
+ * 2 flashes = Error resetting mouse (bad BAT)
+ * 3 flashes = Error resetting mouse (bad BAT ID)
+ * 4 flashes = Error setting defaults (bad command)
+ * 5 flashes = Error setting sample rate (bad command)
+ * 6 flashes = Error setting resolution (bad command)
+ * 7 flashes = Error setting scaling (bad command)
+ * 8 flashes = Error fetching info (bad command)
+ * 9 flashes = Bad resolution setting
+ * 10 flashes = Bad sample rate setting
+ * 11 flashes = Error entering remote mode
 
 Most errors are down to bad data transmission to the mouse.
 Occassionally it errors, but on a power off then on, works fine. I've no idea what causes them.
@@ -95,8 +95,9 @@ Naturally, I take no responsibility if it goes horribly wrong or damages yor CD-
 You attempt this project at your own risk.
 
 Thanks to,
-    * www.icdia.co.uk for tech sheets and CD-i resources
-    * Bob Blick and LCDterm for RS232 PIC code fixes
-    * www.computer-engineering.org (Adam Chapweske) for an understandable PS/2 specification
+
+* www.icdia.co.uk for tech sheets and CD-i resources
+* Bob Blick and LCDterm for RS232 PIC code fixes
+* www.computer-engineering.org (Adam Chapweske) for an understandable PS/2 specification
 
 If you do see any faults in what I've drawn, feel free to fix them.
