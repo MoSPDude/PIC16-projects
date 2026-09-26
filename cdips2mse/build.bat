@@ -1,0 +1,1 @@
+picc -v --summary=psect,mem,class --opt=speed --chip=16F627 ps2cdi.c > build.txt
